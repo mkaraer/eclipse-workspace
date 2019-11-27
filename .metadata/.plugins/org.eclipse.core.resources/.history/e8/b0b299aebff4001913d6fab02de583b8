@@ -1,0 +1,21 @@
+package Example;
+
+public class CheckedException {
+public static void main(String[] args) {
+	
+//FileNotFoundException
+	File f=new File("abc.txt");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

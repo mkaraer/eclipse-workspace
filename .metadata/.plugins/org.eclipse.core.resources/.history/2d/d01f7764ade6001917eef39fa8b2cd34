@@ -1,0 +1,17 @@
+package day40_;
+
+public class movie {
+
+	String name;
+	int length;
+	
+	
+	public void watch() {
+		System.out.println("watching movie : "+name);
+		System.out.println("it is "+length+"minutes");
+	}
+	
+	
+	
+	
+}

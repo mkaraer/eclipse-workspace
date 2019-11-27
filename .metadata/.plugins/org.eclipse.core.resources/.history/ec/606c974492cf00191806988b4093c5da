@@ -1,0 +1,33 @@
+package day8_conditions;
+import java.util.Scanner;
+public class nohut {
+	public static void main(String[] args) {
+		
+		
+		Scanner input= new Scanner(System.in);
+		
+		
+		
+		System.out.println("enter product");
+		double product = input.nextDouble();
+		
+		double nohut=5.0;
+		if(nohut>=5.0) {
+			System.out.println(I will not bu);
+			
+		}else if(nohut<5.0) {
+			System.out.println(I will buy);	
+		}else {
+			System.out.println(i will go home);
+		}
+		
+		
+		
+		
+	
+		
+		
+		
+		
+	}
+}

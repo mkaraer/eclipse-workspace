@@ -1,0 +1,29 @@
+package day26_;
+
+public class arrayWaruuIncrementValues {
+	public static void main (String[] args) {
+		
+		int[] nums= {1,2,3,4,5,6,7,8,9};
+		
+		int odd=nums[0];
+		int even=nums[0];
+       for(int n:nums) {
+    	   //if(n%2==0) {
+    		 //  even=n+2;
+    		   //System.out.println("even Number "+even);
+           }
+    	   if(n%2==1) {
+    		   odd=n+3; 
+    		   System.out.println("odd Number "+odd);
+    	   }
+       }
+   
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,17 @@
+package day25_Arrays;
+
+public class excirseTotal {
+	public static void main (String[] args) {
+		String name="Bob";
+		 System.out.println("Hi "+name);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

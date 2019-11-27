@@ -1,0 +1,14 @@
+package day45_static_block_INHERITANCE;
+
+public class TestinitBlock {
+public static void main(String[] args) {
+	
+	
+	classWithInitBlock c=new classWithInitBlock();
+	classWithInitBlock k=new classWithInitBlock();
+	
+	
+	
+	
+}
+}

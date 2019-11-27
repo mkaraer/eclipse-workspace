@@ -1,0 +1,14 @@
+package day55_warmUpPolymorphizm;
+
+public class Cristmas extends Holiday {
+int giftCount=1;
+
+@Override
+	public void sendHolidayMessage() {
+		System.out.println("happy holiday");
+	}
+	public void exchangeGifts() {
+		System.out.println("Exchange gift "+giftCount);
+	}
+	
+}

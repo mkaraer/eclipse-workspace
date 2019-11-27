@@ -1,0 +1,20 @@
+package day6_operators;
+
+public class swapVarValues {
+	public static void main(String[] args) {
+		
+		int apples=100;
+		int oranges=200;
+		
+		int tempContainer = apples;
+		oranges= oranges;
+		System.out.println("Oranges:"+oranges+ "apples: "+apples);
+		
+		
+		
+		
+		
+		
+		
+	}
+}

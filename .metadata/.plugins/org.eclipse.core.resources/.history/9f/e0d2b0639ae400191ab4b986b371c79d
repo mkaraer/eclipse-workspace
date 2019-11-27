@@ -1,0 +1,57 @@
+package day37_ArraysList;
+
+import java.util.*;
+
+public class MethodWithArrayList {
+public static void main(String[] args) {
+	
+	//how to write that accepts an Arraylist
+	List<Integer> nums= new ArrayList<>();
+	nums.add(1000);
+	nums.add(4000);
+	nums.add(10000);
+	 
+	int result= sumList(nums);
+	System.out.println(result);
+	
+}
+	private static int sumList(List<Integer> nums) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+	public static int sum(ArrayList<Integer>nums) {
+	
+		int sum=0;
+		for(int n:nums) {
+			sum+=n;
+		}
+	for (int i = 0; i < nums.size(); i++) {
+		    sum+=nums.get(i);
+		
+	}
+	
+		
+		return sum;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

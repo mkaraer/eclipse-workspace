@@ -1,0 +1,38 @@
+package day60_Collection;
+
+
+import java.util.*;
+
+public class Iterating {
+public static void main(String[] args) {
+	
+	List <Integer> lst= new ArrayList<>();
+	
+	lst.add(12);
+	lst.add(15);
+	lst.add(20);
+	
+	Iterator<Integer> myIterator= lst.iterator();
+	System.out.println(myIterator.next());
+	System.out.println(myIterator.next());
+	System.out.println(myIterator.next());
+	
+	System.out.println(myIterator.hasNext());
+	
+	while(myIterator.hasNext()) {
+		int myNum=myIterator.next();
+		if(myNum>16) {
+			myIterator.remove();
+		}
+		System.out.println(myIterator.next());
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,21 @@
+package day45_static_block_INHERITANCE;
+
+public class ClassWithINITbloc {
+	{
+		System.out.println("this is initialzer block.i run everytime object is created");
+	}
+public ClassWithINITbloc() {
+	System.out.println("this is constructer. it run everytimes objects is created");
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

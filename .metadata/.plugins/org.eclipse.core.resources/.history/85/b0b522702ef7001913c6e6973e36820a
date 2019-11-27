@@ -1,0 +1,38 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class WarmUpMap {
+public static void main(String[] args) {
+	
+	List<String> lst= new ArrayList<>();
+	
+	lst.add("kangroo");
+	lst.add("laundry");
+	lst.add("Hi");
+	lst.add("banana");
+	
+	Iterator<String> myIt= lst.iterator();
+	
+	while(myIt.hasNext()) {
+		if(lst.contains("k")) {
+			myIt.remove();
+		
+	}
+	
+	}
+	System.out.println(myIt);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

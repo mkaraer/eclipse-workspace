@@ -1,0 +1,19 @@
+package Example;
+
+public class MethodException {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	public static void waitFewSeconds(int second) throws InterruptedException {
+		System.out.println("wait staterted");
+		
+		Thread.sleep(second*1000);
+		System.out.println("wait ended");
+		
+	}
+	
+	
+
+}

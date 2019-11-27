@@ -1,0 +1,26 @@
+package day42_;
+
+public class carMax {
+public static void main(String[] args) {
+	
+	car carOne=new car();
+	carOne.setMake("Acura");
+	carOne.setModel("ILX");
+	carOne.setType("Sedan");
+	carOne.setSpeed(35);
+	
+	System.out.println("Make: "+carOne.getMake());
+	System.out.println("Current Speed "+carOne.getSpeed());
+	
+	carOne.accelerating(30);
+	System.out.println("Current Speed "+carOne.getSpeed());
+	
+	car cartwo=new car();
+	
+	carOne.setMake("Acura");
+	carOne.setModel("ILX");
+	carOne.setType("Sedan");
+	carOne.setSpeed(35);
+	
+}
+}

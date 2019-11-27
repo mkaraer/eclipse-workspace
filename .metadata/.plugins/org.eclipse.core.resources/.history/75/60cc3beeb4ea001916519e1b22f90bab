@@ -1,0 +1,12 @@
+package day45_static_block_INHERITANCE;
+
+public class blockTest {
+public static void main(String[] args) {
+	
+	System.out.println(blocks.num);
+	System.out.println(blocks.str);
+	
+	
+	
+}
+}

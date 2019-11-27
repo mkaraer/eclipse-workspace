@@ -1,0 +1,85 @@
+package day60_Collection;
+
+
+import java.util.*;
+
+public class Iterating {
+private static final int LinkedList = 0;
+
+public static void main(String[] args) {
+	
+//	List <Integer> lst= new ArrayList<>();
+//	
+//	lst.add(12);
+//	lst.add(15);
+//	lst.add(20);
+//	
+//	Iterator<Integer> myIterator= lst.iterator();
+//	System.out.println(myIterator.next());
+//	System.out.println(myIterator.next());
+//	System.out.println(myIterator.next());
+//	
+//	System.out.println(myIterator.hasNext());
+//	
+//	while(myIterator.hasNext()) {
+//		
+//		int myNum=myIterator.next();
+//		if(myNum>16) {
+//			myIterator.remove();
+//		}
+//		
+//		
+//	}
+//	System.out.println(lst);
+	
+/*Create LinkedList of String
+ * add 4 elenments
+ * iterate over using Iterator
+ * romove the elemnt
+ * 	if elemnt contains letter A and Z
+ */
+	Collection<String> str= new LinkedList<>();
+	str.add("ali");
+	str.add("veli");
+	str.add("selm");
+	str.add("Hilal");
+	
+	Iterator<String> myIterator= str.iterator();
+	
+	System.out.println(myIterator.next());
+	System.out.println(myIterator.next());
+	String st=myIterator.next();
+	
+	while(st.contains("a")&&st.contains("z")) {
+		myIterator.remove();
+	}
+	
+	System.out.println(str);
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

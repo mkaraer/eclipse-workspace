@@ -1,0 +1,26 @@
+package day50_FinalSuperConstruction;
+
+public class FinalVariables {
+	
+	private final String SCHOOL_NAME="cybertek";
+	
+	public static final int MAX_NUMBER_OF_STUDENT=50;
+	
+	
+	public static void main(String[] args) {
+		
+		final int MAX;
+		MAX=200;
+		System.out.println(MAX);
+		
+		FinalVariables v=new FinalVariables();
+	System.out.println(	v.SCHOOL_NAME);
+		
+		System.out.println(MAX_NUMBER_OF_STUDENT);
+		
+		
+		
+		
+	}
+
+}

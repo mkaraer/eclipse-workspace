@@ -1,0 +1,23 @@
+package Example;
+
+public class Dene {
+public static void main(String[] args) {
+	
+	try {
+		doSomething();
+	} catch (mySpecialException e) {
+		System.out.println(e);
+	}
+	
+}
+static void doSomething() throws Exception {
+	int[] array = new int[4];
+	array[4]=4;
+	doSomethingElse();
+}
+static void doSomethingElse() throws Exception {
+	throw new mySpecialException("sorry connt do something else");
+}
+
+
+}

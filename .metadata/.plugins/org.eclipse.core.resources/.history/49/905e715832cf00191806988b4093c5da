@@ -1,0 +1,20 @@
+package day8_conditions;
+
+public class condinitionalsIfwithNoCurlyBRACE {
+	public static void main(String[] args) {
+		int kiwis=10;
+		if(kiwis>0) {
+			System.out.println("I have kiwis");
+			System.out.println("Do you want some?");
+		}
+				
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

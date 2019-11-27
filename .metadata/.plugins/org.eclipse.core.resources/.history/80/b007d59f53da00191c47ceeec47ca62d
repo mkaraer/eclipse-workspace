@@ -1,0 +1,29 @@
+package day25_Arrays;
+
+import java.util.Scanner;
+
+public class excirseTotal {
+	public static void main (String[] args) {
+//		String name="Bob";
+//		 System.out.println("Hi "+name);
+//		
+		Scanner input= new Scanner(System.in);
+		 System.out.println("enter two words");
+		String word1=input.next();
+		String word2=input.next();
+		
+		
+		
+		System.out.println(word1.charAt(0));
+		
+		System.out.println(word2.charAt(word2.length()-1));
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

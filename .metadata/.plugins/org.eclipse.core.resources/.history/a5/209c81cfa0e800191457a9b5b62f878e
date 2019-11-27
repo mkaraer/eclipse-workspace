@@ -1,0 +1,22 @@
+package day42_costructorThis;
+
+public class studentTester {
+public static void main(String[] args) {
+	
+
+	student s=new student();
+	s.setName("ahmed");
+	s.setLast("husnittin");
+	s.setId(12);
+	
+	System.out.println(s.getName());
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+}

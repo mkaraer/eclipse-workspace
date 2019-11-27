@@ -1,0 +1,9 @@
+package day4_operators;
+
+public class ageCalculators {
+public static void main(Atring[] args ) {
+	int birthDay= currentYear- birthYear;
+	System.out.println("Your Birthday: "+ birthDay);
+		
+}
+}

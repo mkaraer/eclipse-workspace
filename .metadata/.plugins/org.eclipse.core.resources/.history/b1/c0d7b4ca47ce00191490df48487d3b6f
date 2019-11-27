@@ -1,0 +1,23 @@
+package day6_operators;
+
+import java.util.Scanner;
+
+public class day7Conditional {
+  public static void main(String[] args) {
+	
+	  Scanner input = new Scanner(System.in);
+	  System.out.println("Enter amount");
+	  double currency = input.nextDouble();
+	  double dollar= 0.9144;
+	  double Euro= dollar*currency;
+	  
+	  System.out.println("euro"+Euro);	  
+	    
+			 
+			
+	  
+	  
+	  
+	  
+  }
+}

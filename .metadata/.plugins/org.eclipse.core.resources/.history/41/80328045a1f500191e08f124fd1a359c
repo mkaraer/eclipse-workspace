@@ -1,0 +1,28 @@
+package day60_Collection;
+
+
+public class ArrayList {
+public static void main(String[] args) {
+	
+Collection<String> lists= new example<>();
+	
+	lists.add("apple");
+	lists.add("banana");
+	lists.add("kiwi");
+	lists.add("carrot");
+	lists.add("orange");
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+}

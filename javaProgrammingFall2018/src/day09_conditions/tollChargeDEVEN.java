@@ -1,0 +1,49 @@
+package day09_conditions;
+
+import java.util.Scanner;
+
+public class tollChargeDEVEN {
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Total calculation");
+		System.out.println("enter distanve:");
+
+		int miles = scan.nextInt();
+		double tollCost = 0.0;
+        Boolean isRushHour = false;
+
+		if (miles >= 0 && miles < 100) {
+			if (isRushHour == true) {
+				tollCost = 10.0;
+			} else {
+				tollCost = 5.0;
+			}
+
+		} else if (miles >= 101 && miles <= 500) {
+			if (isRushHour == true) {
+				tollCost = 17.0;
+			} else {
+				tollCost = 8.0;
+			}
+
+		} else if (miles >= 502 && miles <= 1000) {
+			if (isRushHour == true) {
+				tollCost = 20.0;
+			} else {
+				tollCost = 12.0;
+			}
+
+		} else if (miles > 1000) {
+			if (isRushHour = true) {
+				tollCost = 24.0;
+			} else {
+				tollCost = 13.00;
+
+			}
+
+		}
+		System.out.println("total cost $:" + tollCost);
+
+	}
+}

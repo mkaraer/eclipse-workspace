@@ -1,0 +1,31 @@
+package day17_Strings;
+
+import java.util.Scanner;
+
+public class strings03 {
+	public static void main(String[] args)  {
+		
+		// take string contryName and abbreviate it by taking first 2 letters
+		// contryName= Bangladesh-- BA , toUppercase
+		
+		Scanner input= new Scanner (System.in);
+		System.out.println("write a country ");
+		String country= input.next();
+		
+		String Country="";
+		System.out.println(Country.substring(0,2).toUpperCase());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

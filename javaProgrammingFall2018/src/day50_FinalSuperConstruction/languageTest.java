@@ -1,0 +1,30 @@
+package day50_FinalSuperConstruction;
+
+public class languageTest {
+public static void main(String[] args) {
+	
+
+	ProgrammingLanguage pl=new ProgrammingLanguage();	
+//	
+//	pl.printName(); //is running from parent class
+//	
+//	pl.printProgmmingName();
+//	
+//	System.out.println(pl.name);
+	//System.out.println(super.name); //goes tp parent
+	
+	pl.staticMethos();
+	pl.printName();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}	
+}

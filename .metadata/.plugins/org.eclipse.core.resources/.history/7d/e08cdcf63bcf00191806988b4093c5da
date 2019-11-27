@@ -1,0 +1,28 @@
+package day8_conditions;
+
+public class grades {
+	public static void main(String[] args) {
+
+//		A,B,C
+//		USE Cahar variables
+//		if grade is A excellent B- dood c- acceptable d fair
+		char grades= A,B,C,D; 
+		char fair== 'D';
+		
+			
+		if (excellent=='A') {
+			System.out.println("welldone.");
+			
+		}else if('B'== good) {
+			System.out.println("you are good");
+		}else if ('C'== acceptable) {
+			System.out.println("It is Ok");
+		}else if(fair=='D') {
+			System.out.println("try your best");
+		}
+		
+		
+		
+		
+	}
+}

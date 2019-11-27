@@ -1,0 +1,10 @@
+package day49_inharetince;
+
+public class Animal {
+	public String name;
+	
+public Animal(String name){
+	this.name="vgc";
+	System.out.println("Animal is created"+name);
+}
+}

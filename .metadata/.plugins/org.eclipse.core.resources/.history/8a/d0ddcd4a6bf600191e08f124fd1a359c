@@ -1,0 +1,23 @@
+package day60_Collection;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+public class QueuePractice {
+public static void main(String[] args) {
+	
+	Queue<Integer>que= new PriorityQueue<>();
+	
+	que.add(2);
+	que.add(3);
+	que.add(4);
+	que.add(9);
+	
+	System.out.println(que.remove(0));
+	
+	
+	
+	
+	
+	
+}
+}

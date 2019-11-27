@@ -1,0 +1,25 @@
+package day60_Collection;
+
+import java.util.*;
+import java.util.Map;
+
+public class MapPractice {
+public static void main(String[] args) {
+	
+	Map<String,Integer>ct= new HashMap<>();
+	
+	ct.put("USA", 28);
+	ct.put("UK", 20);
+	ct.put("Ukranina", 17);
+	ct.put("France", 25);
+	
+	System.out.println(ct);
+	
+	
+	
+	
+	
+	
+	
+}
+}

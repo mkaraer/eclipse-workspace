@@ -1,0 +1,27 @@
+package day17_Strings;
+
+public class Strings02 {
+	public static void main(String[] args)  {
+		// create 1 string variabel
+		// if first and last chars are same pritn "firstsame"
+		//if second amd second from the last are same -print "seconds same"
+		// scanner with next() method
+		
+		String words= "eveyone";
+		char charfrst= words.charAt(0);
+		System.out.println(charfrst);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

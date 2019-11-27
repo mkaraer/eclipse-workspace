@@ -1,0 +1,103 @@
+package day32_methodWithReturn01;
+
+public class metthodWithParameters {
+public static void main(String[] args) {
+	
+	String newEmail=buildEmail("metin","karaer");
+	System.out.println(newEmail);
+	
+	System.out.println(buildEmail("john","doe"));
+	
+	int newMx=getMax(3,2);
+	System.out.println(newMx);
+	System.out.println(getMax(3,2));
+	
+	System.out.println(getMax3(9,5,100));
+	int max=getMax3(9,200,100);
+	System.out.println(max);
+	
+	   System.out.println(isValidDay("monday"));  
+	
+}
+
+// buildEmail that accept 2 string parm firsname and lastname and
+//return afull email by adding @gmail.com
+
+
+public static String buildEmail(String firstname, String lastname) {
+	String email=firstname.toLowerCase()+"_"+lastname.toUpperCase()+"@gamil.com";
+	return email;
+}
+// crete a mothod getMax that accept 2 int and return it
+
+public static int getMax(int num1,int num2) {
+	int largest;
+	if(num1>num2) {
+		largest=num1;
+	}else {
+		largest= num2;
+}
+	return largest;
+}
+
+public static int getMax3(int num1,int num2,int num3) {
+	int largest;
+	if(num1>num2&&num1>num3) {                     // multiple returns possible to use
+		return num1;
+	}else if(num2>num1&&num2>num3) {
+		return num2;
+	}else {
+          return num3;
+	}
+
+}
+// isValidDay method  accepts a weekday a weekdayName, and checeks
+//if it is a valid one of 7 days return true ,otherwise returm false.
+
+public static boolean isValidDay (String day) {
+	if(day.equals("monday")||day.equals("tuesday")||day.equals("wednesday")||day.equals("thursday")
+			||day.equals("friday")||day.equals("saturday")) {
+	
+	return true;	
+	}	else {
+		return false;
+	}
+
+	
+	
+	switch(day1) {
+	case "sunday":
+		
+		break;
+	case "monday":
+		
+		break;
+	case "Tuesday":
+		
+		break;
+	case "wednesday":
+		
+		break;
+	case "thursday":
+		
+		break;
+	case "friday":
+		
+		break;
+	case "saturday":
+			break;
+		default:
+	}
+	
+
+
+
+
+
+
+
+
+}
+
+
+}

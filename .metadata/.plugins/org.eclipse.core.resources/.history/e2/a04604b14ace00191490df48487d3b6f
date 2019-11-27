@@ -1,0 +1,21 @@
+package day6_operators;
+
+public class swapVarValues {
+	public static void main(String[] args) {
+		
+		int apples=100;
+		int oranges=200;
+		
+		int tempContainer = apples; // degistirmek icin baska containra aktarip print yapmaklazim..
+		oranges= apples;
+		
+		System.out.println("Oranges:"+oranges+ "apples: "+apples);
+		
+		
+		
+		
+		
+		
+		
+	}
+}

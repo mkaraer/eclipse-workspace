@@ -1,0 +1,26 @@
+package day49_inharetince;
+
+public class Student {
+	private int num;
+	
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public Student(int num) {
+		this.num=num;
+	}
+	public void attendClass() {
+	
+		System.out.println("student attending a class somehow");
+	}
+	
+	
+	
+	
+	
+	
+	
+}

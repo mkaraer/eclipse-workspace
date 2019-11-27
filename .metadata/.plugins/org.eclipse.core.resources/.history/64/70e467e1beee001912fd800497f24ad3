@@ -1,0 +1,13 @@
+package day50_FinalSuperConstruction;
+
+public class languageTest {
+public static void main(String[] args) {
+	
+
+	ProgrammingLanguage pl=new ProgrammingLanguage();	
+	
+	pl.printName();
+	
+	
+}	
+}

@@ -1,0 +1,32 @@
+package Example;
+
+import java.io.FileNotFoundException;
+
+public class CheckedException {
+public static void main(String[] args) {
+	
+//FileNotFoundException
+	
+	FileNotFoundException e=new FileNotFoundException();
+	System.out.println("ABC");
+	
+	
+	try {
+		System.out.println("dangerous action");
+		throw e;
+		
+	}catch(FileNotFoundException e1) {
+		System.out.println("handle the exception");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,57 @@
+package day_11Switch;
+
+public class switchCase {
+	public static void main(String[] args) {
+		//1-lobby 2-google 3- cyberteck 4- apple
+		int floor = 3;
+		
+		if (floor==1) {
+			System.out.println("lobby");
+		}else if (floor==2) {
+			System.out.println("google");
+		}else if (floor==3) {
+			System.out.println("cyberteck");
+		}else if (floor==4) {
+			System.out.println("apple");
+		}else {
+			System.out.println("there isnt such floor");
+		}
+		
+		switch (floor) {
+		case 1 :
+			System.out.println("lobby");
+		break;
+		case 2:
+			System.out.println("google");
+			break;
+		case 3:
+			System.out.println("cyberteck");
+			break;
+		case 4:
+			System.out.println("apple");
+			break;
+			default:
+				System.out.println("eror");
+			
+		
+		
+		
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

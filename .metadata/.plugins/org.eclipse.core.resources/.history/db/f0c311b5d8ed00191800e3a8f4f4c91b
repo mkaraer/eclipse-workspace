@@ -1,0 +1,20 @@
+package day49_inharetince;
+
+public class StudentTest {
+public static void main(String[] args) {
+	
+	Student student=new Student(56);
+//	OnlineStudent onlineStudent=new OnlineStudent();
+	OnCampusStudent onCampusStudent= new OnCampusStudent(20);
+	
+	//student.attendClass();
+	//onlineStudent.attendClass();
+	//onCampusStudent.attendClass();
+	
+	
+	
+	
+	
+	
+}
+}

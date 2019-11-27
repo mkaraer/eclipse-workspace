@@ -1,0 +1,19 @@
+package day9_conditions;
+
+public class creditScore {
+	public static void main(String[] args) {
+		int creditScore=560;
+		String creditStatus= "unknown";
+		int percentage= 100;
+				
+				if(creditScore<0|| creditScore>80) {
+					creditStatus="invalid score";
+				}		
+				
+		      System.out.println(creditStatus);
+		      System.out.println("percantage in usa"+ percentage);
+		
+		
+		
+	}
+}

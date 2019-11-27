@@ -1,0 +1,70 @@
+package day33_methodwithReturn;
+
+import day31_.calculator;
+
+public class compareCalculators {
+public static void main(String[] args) {
+	
+	calculator.add(4, 3); // import from other file
+	
+	//double resul=calculator.add(4, 3);   not works becuse it is void doesnt return
+	
+	
+	//System.out.println(calculator.add(4, 3));
+
+	double total =calculatorWithReturn.add(3.0,4.0);
+	
+	
+	
+}
+
+
+
+
+
+public static double add(double num1, double num2) {
+	double total = num1 + num2;
+return total;
+	
+}
+
+public static double substract(double num1, double num2) {
+	double total = num1 - num2;
+
+	return total;
+}
+
+public static double multiplication(double num1, double num2) {
+	double total = num1 * num2;
+
+	return total;
+}
+
+public static double divide (double num1, double num2) {
+
+	
+		double total = num1 / num2;
+		System.out.println(total);
+		return total;
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+}

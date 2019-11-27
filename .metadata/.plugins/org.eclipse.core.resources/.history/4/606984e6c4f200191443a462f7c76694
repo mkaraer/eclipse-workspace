@@ -1,0 +1,16 @@
+package day55_warmUpPolymorphizm;
+
+public class HolidayUtility {
+public static void main(String[] args) {
+	Holiday h=new Holiday();
+	HolidayUtility.sendMessage(h);
+	//h.sendHolidayMessage();
+}
+static void sendMessage(Holiday h) {
+	System.out.println("send message from utility");
+	//h.sendHolidayMessage();
+}
+	
+	
+	
+}

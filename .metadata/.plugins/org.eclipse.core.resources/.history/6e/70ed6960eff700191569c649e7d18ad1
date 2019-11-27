@@ -1,0 +1,53 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class MapWithSorted {
+public static void main(String[] args) {
+	
+	SortedMap<String,Integer> products=new TreeMap();
+	
+	products.put("Screen", 53);
+	products.put("Keyboard", 26);
+	products.put("Mouse", 43);
+	products.put("Router", 99);
+	products.put("Tv", 1256);
+	products.put("Radio", 132);
+	products.put("Radio",26549);
+	
+	System.out.println(products);
+	
+	products.subMap("K", "R");
+	
+	SortedMap<String,Integer> kproducts=products.subMap("K", "R");
+	System.out.println(kproducts);
+	
+	String firstKey=products.firstKey();
+	String LastKey=products.lastKey();
+	
+	SortedMap<String,Integer> hproducts=products.headMap("K");
+	System.out.println(hproducts);
+	SortedMap<String,Integer> tproducts=products.tailMap("P");
+	System.out.println(tproducts);
+	
+	System.out.println("products firtstkey ...>"+firstKey());
+	System.out.println("products lastKey.....>"+lastKey());
+	
+	
+	
+	
+	
+	
+	
+}
+
+private static String lastKey() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+private static String firstKey() {
+	// TODO Auto-generated method stub
+	return null;
+}
+}

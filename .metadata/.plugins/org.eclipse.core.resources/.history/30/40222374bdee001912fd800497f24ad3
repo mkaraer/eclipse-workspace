@@ -1,0 +1,16 @@
+package day50_FinalSuperConstruction;
+
+public class ProgrammingLanguage extends LanguageHidden{
+
+	public String name="Programming Langeage";
+	
+	
+	public static void staticMethos() {
+		System.out.println("language: -)");
+	
+	}	
+	
+	
+	
+	
+}

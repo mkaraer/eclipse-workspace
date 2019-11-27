@@ -1,0 +1,30 @@
+package day19_loops02;
+
+public class snackTime {
+	public static void main (String[] args) {
+		// create a boolean variable hungry and assign true
+		//create int variable app;es and assign 1 to it
+		//As long as your hungry pritn "eating an apple"
+		// and increase the apple
+		// once you eat 5 apple, youare longer hungry
+
+		
+		boolean hungry=true;
+		int apple=1;
+		while(hungry) {
+			System.out.print("eating an apple");
+		  apple++;
+		  
+		 if (apple==5) {
+			  hungry=false;
+		  }
+	}
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,18 @@
+package day50_FinalSuperConstruction;
+
+public class ProgrammingLanguage extends LanguageHidden{
+
+	public String name="Programming Langeage";
+	
+	public void printProgmmingName() {
+		System.out.println("programming L: "+name);
+	}
+	
+
+
+	
+	
+
+	
+	
+}

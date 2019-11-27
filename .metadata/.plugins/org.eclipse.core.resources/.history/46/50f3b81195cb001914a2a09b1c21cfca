@@ -1,0 +1,24 @@
+package day4_operators;
+
+import java.util.Scanner;
+
+public class ageCalculatorWithScanner {
+    public static void main (String[] args) {
+    	
+    	System.out.println("Enter year of birth");
+    	
+    	
+    	
+    	
+    	//System.out.println("Year of birth is "+ yearOfBirth);
+    	int currentYear= 1874;
+    	int yearOfBirth= 1794;
+    	int age= currentYear-yearOfBirth;
+    	System.out.println("age");
+    	int age = scan.nextInt();
+    	
+    	
+    	
+    	
+    }
+}

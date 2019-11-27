@@ -1,0 +1,11 @@
+package day49_inharetince;
+
+public class Petsmart extends Store{
+	
+	public Petsmart() {
+		super("Fruits");
+	}
+	
+	
+
+}

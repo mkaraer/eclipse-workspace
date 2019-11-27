@@ -1,0 +1,61 @@
+package day33_methodwithReturn;
+
+public class compareCalculators {
+public static void main(String[] args) {
+	
+	System.out.println(substract(3,2));
+
+}
+
+
+
+
+
+public static double add(double num1, double num2) {
+	double total = num1 + num2;
+return total;
+	
+}
+
+public static double substract(double num1, double num2) {
+	double total = num1 - num2;
+
+	return total;
+}
+
+public static double multiplication(double num1, double num2) {
+	double total = num1 * num2;
+
+	return total;
+}
+
+public static double divide (double num1, double num2) {
+
+	
+		double total = num1 / num2;
+		System.out.println(total);
+		return total;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

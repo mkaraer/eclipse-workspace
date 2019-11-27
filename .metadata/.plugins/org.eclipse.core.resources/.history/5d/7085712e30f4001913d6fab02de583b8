@@ -1,0 +1,33 @@
+package Example;
+
+public class Practice2TryCatch {
+public static void main(String[] args) {
+	
+	
+	System.out.println("program started");
+	
+	try {
+		//dangerous action in here
+		System.out.println("insade try");
+		String a=null;
+		System.out.println(a.length());
+		
+		}catch(NullPointerException e){
+		System.out.println("An exception happened here");
+	}
+	
+	String [] str= {"a","b","c"};
+	System.out.println(str[2]);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

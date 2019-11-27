@@ -1,0 +1,21 @@
+package day8_conditions;
+
+public class condinional2 {
+	public static void main(String[] args) {
+//		English-- 1
+//		Sapmish-- 2
+//		Turkish-- 3
+//		Russian-- 4
+//		Uygur-- 5
+//		Uzbek-- 6
+		
+		System.out.println("Please select: English--1\n "+
+				 "Spanish--2\n"+
+				  "Turkish--3\n"+ 
+				   "Russian--4\n"+ 
+				   "Uygur--5\n"+ 
+				   "Uzbek--6\n");
+		
+		
+	}
+}

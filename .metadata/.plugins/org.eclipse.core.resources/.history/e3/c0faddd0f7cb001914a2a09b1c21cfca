@@ -1,0 +1,21 @@
+package day4_operators;
+
+import java.util.Scanner;
+
+public class temperatureConverting {
+    public static void main(String[] args ) {
+    	
+    	double celsius = 0;
+    	double fahrenheit = 32;
+    	
+Scanner scan = new Scanner(System.in);
+    	
+    	System.out.println("Enter celsius degree 0 ");
+    	int yearOfBirth = scan.nextInt();
+    	
+    	System.out.println("Enter fahrenheit degree 0 ");
+    	int currentYear = scan.nextInt();
+    	 
+    	System.out.println("if celsius is "+ (5.0/9)+ "it will be fahrenheit");
+    }
+}

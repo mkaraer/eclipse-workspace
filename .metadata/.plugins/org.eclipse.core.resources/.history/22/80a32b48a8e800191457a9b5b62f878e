@@ -1,0 +1,36 @@
+package day42_costructorThis;
+
+public class student {
+private String name;
+private String last;
+private int id;
+
+
+public student(String name,String last,int id) {
+	name=name;
+	last=last;
+	id = id;
+}
+
+
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getLast() {
+	return last;
+}
+public void setLast(String last) {
+	this.last = last;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+	
+	
+}

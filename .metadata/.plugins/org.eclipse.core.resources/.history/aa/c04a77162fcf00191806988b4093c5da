@@ -1,0 +1,18 @@
+package day8_conditions;
+
+public class ifCondtionString {
+	public static void main(String[] args) {
+	int weekday=1;
+	if(weekday==1) {
+		System.out.println("monday");
+	}else {
+		System.out.println(" it is not Monday");
+	}
+	if (weekday==2) {
+		System.out.println("Tuesday");
+	}else {
+		System.out.println("Not tuesday");
+	}
+		
+	}
+}

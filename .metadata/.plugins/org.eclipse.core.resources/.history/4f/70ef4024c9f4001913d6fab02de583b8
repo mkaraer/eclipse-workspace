@@ -1,0 +1,35 @@
+package Example;
+
+import java.awt.List;
+import java.util.*;
+
+public class UserManagement {
+public static void main(String[] args) {
+	UserManagement c= new UserManagement();
+	
+	c.createUserName("metinKaraer");
+	System.out.println("stsrts");
+	try {
+		String name="metinkaraer";
+		System.out.println(name.charAt(0));
+		System.out.println(name.charAt(10));
+	}catch(NumberFormatException e) {
+		System.out.println("catch fish");
+	}
+	
+}	
+public void createUserName(String name) {
+	System.out.println(name.charAt(0));
+	System.out.println(name.charAt(10));
+	char[] ch= {'m','e','t','i','n','k','a','r','a','e','r'};
+	Integer.parseInt(name, name.charAt(0));
+	
+}	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package day4_operators;
+import java.util.Scanner;
+
+public class age {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		System.out.println("How old are you? ");
+		int output    = scan.nextInt();
+		 
+		System.out.println(output..+ "you are too young. ");
+		
+		
+	}
+	
+
+}

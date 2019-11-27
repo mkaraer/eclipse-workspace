@@ -1,0 +1,33 @@
+package day32_methodWithReturn01;
+
+public class AccumulatorsMethods {
+public static void main(String[] args) {
+	
+	System.out.println(getStarts(5));
+	
+	
+	
+}
+
+public static String getStarts(int count) {
+	String stars="";
+	for(int i=1; i<count; i++) {
+		
+		stars+="*";// add one more star	
+			
+			}
+	return stars;
+}
+// method sumTon: accepts an int and return sum of int starting from 1 to that int
+//sumToN(3)--6 (1, 2+3)
+//sunToN(5)--15 (1+2+3+4+5)
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,17 @@
+package day55_warmUpPolymorphizm;
+
+public class Holiday {
+
+	String name;
+public void sendHolidayMessage() {
+	System.out.println("Merry Cristmas");
+}
+public void doHolidayStaff	(int param) {
+	int k= param*2;
+	
+}
+//Primitive variable
+//reference variable
+//type
+	
+}

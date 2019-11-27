@@ -1,0 +1,12 @@
+package day49_inharetince;
+
+public class Cat extends Animal {
+public Cat() {
+	super("minnos");
+	System.out.println("Cat object is created");
+	
+}
+	
+	
+
+}

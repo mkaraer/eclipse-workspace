@@ -1,0 +1,19 @@
+package day49_inharetince;
+
+public class StoreTest {
+public static void main(String[] args) {
+	
+	//Store store1=new Store(); NO Default constructer
+	
+	Store store1=new Store("Slad");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

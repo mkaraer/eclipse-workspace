@@ -1,0 +1,41 @@
+package Example;
+
+import java.awt.List;
+import java.util.*;
+
+public class UserManagement {
+public static void main(String[] args) {
+	UserManagement c= new UserManagement();
+	
+	createUserName("Ibrahin cybertek");
+	//c.createUserName("metinKaraer");
+	
+	
+}	
+public static void createUserName(String name) {
+	//try {
+	System.out.println(name.charAt(0));
+	System.out.println(name.charAt(9));
+	
+	char[] nameChars=name.toCharArray();
+	System.out.println(nameChars[9]);
+	
+	String[] arrName= name.split("");
+	Integer i=Integer.parseInt(arrName[9]);
+	System.out.println(i);
+	
+//	}catch(NullPointerException | ArrayIndexOutOfBoundsException |
+//			StringIndexOutOfBoundsException e) {
+//		System.out.println("caought exception");
+//	}
+//	
+	
+}	
+	
+	
+	
+	
+	
+	
+
+}

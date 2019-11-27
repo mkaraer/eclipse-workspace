@@ -1,0 +1,40 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class MapHashMap {
+	public static void main(String[] args) {
+		
+		Map<String , List<String>> groupMap=new HashMap<>();
+		
+		List<String> ty1Lst= Arrays.asList("Heydar","Ahhmed");
+		List<String> ty2Lst= Arrays.asList("Esqer","Oguz");
+		List<String> ty3Lst= Arrays.asList("Dhamol","Mesut","Ali","Hsan");
+		
+		groupMap.put("Tyson One", ty1Lst);
+		groupMap.put("Tyson two", ty2Lst);
+		groupMap.put("Tyson three", ty3Lst);
+		
+		System.out.println(groupMap.get("Tyson three"));
+		System.out.println(groupMap.get("Tyson three").get(1));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

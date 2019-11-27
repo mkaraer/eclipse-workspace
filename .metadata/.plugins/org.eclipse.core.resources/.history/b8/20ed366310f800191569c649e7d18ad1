@@ -1,0 +1,39 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class Hashing {
+public static void main(String[] args) {
+	Set<Person> set= new HashSet<>();
+	
+	Person p1=new Person(12,"Joh");
+	Person p2=new Person(12,"Joh");
+	System.out.println(p1);
+	
+	set.add(p1);
+	set.add(p2);
+	System.out.println(set);
+	
+	
+}
+}
+class Person{
+	int age;
+	String name;
+	public Person(int age, String name) {
+		super();
+		this.age = age;
+		this.name = name;
+		
+	}
+	@Override
+	public String toString() {
+		return "Person [age=" + age + ", name=" + name + "]";
+	}
+	
+}
+
+
+
+
+

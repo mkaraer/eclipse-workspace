@@ -1,0 +1,73 @@
+package PaymentsManeger;
+
+import java.util.*;
+
+import Beans.Amex;
+import Beans.Diners;
+import Beans.Location;
+import Beans.MasterCard;
+import Beans.MyDate;
+import Beans.Payment;
+import Beans.Product;
+import Beans.Visa;
+
+public class PaymentController {
+	List <Payment> payments= new ArrayList<>();
+	
+	// 1/2/09 13:08, Product1, 1200, Mastercard, Federica e Andrea, Astoria ,OR,United States
+	public void addPaymentRecord(String data) {
+		//check if payment data is empty
+		if(data.isEmpty()) {
+			System.out.println("Exception :data is passed");
+			return;
+		}
+		//split by coma since data is coming from cvs
+		//i am sure there is ready library for this
+		String[]dataArray=data.split(",");
+		//chcek for missing file
+		if(dataArray.length!=8) {
+			System.out.println("Exception: Some data is Missing");
+			return;
+		}
+		Payment tempPayment=null;
+		switch(dataArray[3].trim()){
+		case"Visa":
+			tempPayment=new Visa();
+			break;
+		case"MasterCard":
+			tempPayment=new MasterCard();
+		case"Diners":
+			tempPayment=new Diners();
+		case"Amex":
+			tempPayment=new Amex();
+			default:
+				System.out.println("Exception: invalid payment-"+dataArray[3].trim());
+				return;
+	}
+		
+		tempPayment.setTransactionDate(parseDate(dataArray[0]));	
+		tempPayment.setProduct(new Product(dataArray[1].trim()));
+		tempPayment.setPrice(Double.parseDouble(dataArray[2].trim())); //Double.parceDouble ..wrapper class turn the price double
+		tempPayment.setName(dataArray[4].trim());
+		tempPayment.setLocation(new Location(dataArray[5].trim(), dataArray[6].trim(), dataArray[7].trim()));
+		
+		payments.add(tempPayment);
+		
+	}
+	//1/2/2009 13:08
+	private MyDate parseDate(String str) {
+		String[] arr= str.split("/");
+		arr[2]=arr[2].substring(0,4);
+		
+		return new MyDate(Integer.parseInt(arr[0]), //converting integer
+				Integer.parseInt(arr[1]),
+				Integer.parseInt(arr[2]));
+	}
+
+	
+
+	
+	
+	
+	
+}

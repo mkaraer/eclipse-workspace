@@ -1,0 +1,20 @@
+package day40_;
+
+public class moviesTester {
+public static void main(String[] args) {
+	
+
+	movie film=new movie();
+	film.name="Matrix";
+	film.length=30;
+	
+	System.out.println(film.name);
+
+	film.watch();
+	
+	
+	
+}
+
+
+}

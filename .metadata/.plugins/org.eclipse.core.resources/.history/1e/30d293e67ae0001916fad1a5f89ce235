@@ -1,0 +1,37 @@
+package day32_methodWithReturn01;
+
+public class metthodWithParameters {
+public static void main(String[] args) {
+	
+	String newEmail=buildEmail("metin","karaer");
+	System.out.println(newEmail);
+	
+	System.out.println(buildEmail("john","doe"));
+	
+	
+}
+
+// buildEmail that accept 2 string parm firsname and lastname and
+//return afull email by adding @gmail.com
+
+
+public static String buildEmail(String firstname, String lastname) {
+	String email=firstname+"_"+lastname+"@gamil.com";
+	return email;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

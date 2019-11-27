@@ -1,0 +1,33 @@
+package day51_Abstraction;
+
+public class FTEEmployee extends Employee{
+	public double bonus;
+	
+	public FTEEmployee() {
+		super();
+	}
+	
+	
+	
+	
+	
+	public void speak() {
+		
+	}
+	@Override
+		public void work() {
+			System.out.println("FTE work");
+			
+		}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,61 @@
+package day60_Collection;
+
+import java.util.*;
+
+public class example {
+public static void main(String[] args) {
+	
+//Collection<String> col= new ArrayList<>();
+//	
+//	col.add("apple");
+//	col.add("banana");
+//	col.add("kiwi");
+//	col.add("carrot");
+//	col.add("orange");
+//
+//for (String string : col) {
+//	System.out.println(string);
+//}
+//
+//col= new LinkedList<>();
+
+List<Integer> lst= new ArrayList<>();
+lst.add(12);
+lst.add(15);
+lst.add(20);
+
+for (Integer each : lst) {
+	each=10;
+	System.out.print(each+"");
+	
+}
+
+for (int i = 0; i < lst.size(); i++) {
+	Integer each=lst.get(i);
+	each=10;
+	System.out.println(each+"loop");
+}
+
+for (int i = 0; i < lst.size(); i++) {
+	lst.set(i, 10);
+	System.out.println(lst.get(i)+"last");
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+}

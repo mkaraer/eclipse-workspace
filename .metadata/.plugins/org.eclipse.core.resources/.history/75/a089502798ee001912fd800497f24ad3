@@ -1,0 +1,25 @@
+package day50_FinalSuperConstruction;
+
+public class ProtuctTest {
+public static void main(String[] args) {
+	
+	PruductSuper p1=new PruductSuper("phone");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+	
+	
+	
+	
+	
+}

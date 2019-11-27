@@ -1,0 +1,40 @@
+package day40_;
+
+import day33_methodwithReturn.calculatorWithReturn;
+
+public class DogTest {
+public static void main(String[] args) {
+		
+		Dog an= new Dog();
+		an.breed="wolf";
+		an.color="white";
+		an.size=2.6;
+		
+		Dog an2 =new Dog();
+		
+		an2.breed="shepherd";
+		an2.color="black";
+		an2.size=10.6;
+		
+		System.out.println("Brad of the fog : "+an.breed+", color : "+an.color+ " ,size: "+an.size);
+		System.out.println("Brad of the fog : "+an2.breed);
+		
+		an.bark();
+		an.eat();
+		an.run();
+		
+		an2.bark();
+		an2.eat();
+		an2.run();
+		
+		calculatorWithReturn.add(4, 3);
+		int result=0;
+		if(result==7.0) {
+		System.out.println("if 7.0 pass");
+		}else {
+			System.out.println("fail");
+		}
+		
+	}
+	
+}

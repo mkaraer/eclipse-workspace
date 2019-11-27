@@ -1,0 +1,16 @@
+package day45_static_block_INHERITANCE;
+
+public class StaticBlockTester {
+public static void main(String[] args) {
+	
+	classWithStaticBLOCK.staticMethod();
+	
+	classWithStaticBLOCK zero;
+	classWithStaticBLOCK one= new classWithStaticBLOCK();
+	classWithStaticBLOCK two= new classWithStaticBLOCK();
+	classWithStaticBLOCK three= new classWithStaticBLOCK();
+
+	
+	
+}
+}

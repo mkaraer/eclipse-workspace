@@ -1,0 +1,47 @@
+package day33_methodwithReturn;
+
+public class converterUtility {
+	
+public static void main(String[] args) {
+	 double meter=km(5);
+	 System.out.println(meter);
+	
+	
+	
+}
+	
+	
+	//write a method milesfor km, accepts miles and return km value;
+	//return type: double
+	//param: 1 double
+	
+	public static double km (double miles) {
+		
+		double kmeter=0;
+	miles=kmeter*1.7;
+	return kmeter;
+		
+	}
+	
+	// method name: fahrenheitToCelcius
+	//Action: accepts fahrenheit and  returns Celcius value
+	// return type: int
+	//pramams: 1 int
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

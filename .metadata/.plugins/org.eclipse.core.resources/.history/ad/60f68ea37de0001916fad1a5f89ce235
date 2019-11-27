@@ -1,0 +1,62 @@
+package day32_methodWithReturn01;
+
+public class metthodWithParameters {
+public static void main(String[] args) {
+	
+	String newEmail=buildEmail("metin","karaer");
+	System.out.println(newEmail);
+	
+	System.out.println(buildEmail("john","doe"));
+	
+	int newMx=getMax(3,2);
+	System.out.println(newMx);
+	System.out.println(getMax(3,2));
+	
+	System.out.println(getMax3(3,5,100));
+	
+}
+
+// buildEmail that accept 2 string parm firsname and lastname and
+//return afull email by adding @gmail.com
+
+
+public static String buildEmail(String firstname, String lastname) {
+	String email=firstname.toLowerCase()+"_"+lastname.toUpperCase()+"@gamil.com";
+	return email;
+}
+// crete a mothod getMax that accept 2 int and return it
+
+public static int getMax(int num1,int num2) {
+	int largest;
+	if(num1>num2) {
+		largest=num1;
+	}else {
+		largest=num2;
+	}
+	return largest;
+}
+
+public static int getMax3(int num1,int num2,int num3) {
+	int largest;
+	if(num1>num2&&num1>num3) {
+		largest=num1;
+	}else if(num2>num1&&num2>num3) {
+		largest=num2;
+	}else {
+		largest= num3;
+	}
+	return largest;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

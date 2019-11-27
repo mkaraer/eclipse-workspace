@@ -1,0 +1,27 @@
+package day4_operators;
+
+public class basicMathOperators {
+   public static void main(String[] args ) {
+	   int num1 = 100;
+	    int num2 = 200;
+	    System.out.println(num1+num2);
+	    int sum=num1+num2+10;
+	    System.out.println("Sum is "+ sum);
+	    
+	    double apples= 10.55;
+	    double carrot= 3.87;
+	    double tomatoes= 6.23;
+	    
+	    double totalBeforeTAx = apples+carrot+tomatoes;
+	    System.out.println("Total Before Tax: "+ totalBeforeTAx);
+	    
+	    double tax= totalBeforeTAx * 0.06;
+	    System.out.println("Total tax is: "+ tax );
+	    
+	    double grandTotal= totalBeforeTAx+tax
+	    		System.out.println("Grand total: " + grandTotal);
+	    
+   }
+   
+    		
+}

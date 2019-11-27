@@ -1,0 +1,24 @@
+package Example;
+
+public class Practice {
+public static void main(String[] args) {
+	
+	//NullPointer // AritmaticExexption // IndexOutOfBoundException
+	
+	String s=null;
+	System.out.println(s.length());
+	
+	System.out.println(3/0);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

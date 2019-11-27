@@ -1,0 +1,14 @@
+package day51_Abstraction;
+
+public class PersonTester {
+public static void main(String[] args) {
+	
+	FTEEmployee fte=new FTEEmployee("deli",34);
+	
+	
+	
+	
+	
+	
+}
+}

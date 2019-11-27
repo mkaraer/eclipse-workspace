@@ -1,0 +1,40 @@
+package day6_operators;
+import java.util.Scanner;
+public class day6_operators {
+public static void main(String[] args) {
+	
+//	Scanner input = new Scanner(System.in);
+	
+//	System.out.println("Enter miles:");
+	
+//	double miles = input.nextDouble();
+	
+//	double km = miles*1.6334;
+//	 System.out.println("Kilometers is: " + km);
+
+	Scanner input = new Scanner(System.in);
+	System.out.println("Enter current car odometer miles:");
+	double curretnOdometer = input.nextDouble();
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+

@@ -1,0 +1,18 @@
+package day8_conditions;
+import java.util.Scanner;
+public class nohut {
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		
+		double nohut=40.0;
+		double toatalWeight= 25.0;
+		double perKg= nohut/toatalWeight;
+		
+		System.out.println("enter product");
+		double perKg1 = scan.nextDouble();
+		
+		System.out.println("Nohut price per kg "+ perKg);
+		
+		
+	}
+}

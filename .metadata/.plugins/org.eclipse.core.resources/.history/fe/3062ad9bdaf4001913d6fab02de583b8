@@ -1,0 +1,40 @@
+package Example;
+
+public class MethodException {
+	public static void main(String[] args) throws Exception {
+		
+		//throw...> used to actually throw and exceotion to the program
+		//throws..> only used in methods header(public static void etc) and used to declare 
+		//document by calling this method you need to handle the exception type might occure..
+		
+		//waitFewSeconds(5);
+		try {
+		playWithFire();
+		}catch(Exception e){
+			System.out.println("handlig with fire");
+		}
+		
+		playDangerousStuff();
+		
+		
+	}
+		public static void playDangerousStuff() throws Exception{
+		playWithFire();
+		
+	}
+	public static void playWithFire() throws Exception{
+		// there is code to throw an exception
+	}
+	
+	public static void waitFewSeconds(int second) throws InterruptedException {
+		
+		System.out.println("wait staterted");
+		
+		Thread.sleep(second*1000);
+		System.out.println("wait ended");
+		
+	}
+	
+	
+
+}

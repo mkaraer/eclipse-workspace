@@ -1,0 +1,10 @@
+package day45_static_block_INHERITANCE;
+
+public class TestIntBlocl {
+
+	ClassWithINITbloc c= new ClassWithINITbloc();
+	ClassWithINITbloc c2= new ClassWithINITbloc();
+	
+	
+	
+}

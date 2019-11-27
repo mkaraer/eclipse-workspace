@@ -1,0 +1,16 @@
+package day43_static_constructur;
+
+public class Campus {
+static String city;
+static String country;
+public static void aboutCampus() {
+	System.out.println("Campus is located in "+city);
+	
+}
+
+}
+
+
+
+// we can call//access static by just calssname. no need to create object
+//whenever we add any static variable or method into a class , it means those belong to calss. no need to create object to call

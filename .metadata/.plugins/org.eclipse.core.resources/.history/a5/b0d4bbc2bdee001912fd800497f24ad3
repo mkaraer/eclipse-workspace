@@ -1,0 +1,19 @@
+package day50_FinalSuperConstruction;
+
+public class languageTest {
+public static void main(String[] args) {
+	
+
+	ProgrammingLanguage p=new ProgrammingLanguage();	
+	p.staticMethos();
+	p.name="hhjj";
+	System.out.println(p.toString());
+
+	
+	p.printName();
+	
+	
+	
+	
+}	
+}

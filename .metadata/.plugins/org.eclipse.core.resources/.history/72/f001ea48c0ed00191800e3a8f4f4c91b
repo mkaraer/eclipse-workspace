@@ -1,0 +1,9 @@
+package day49_inharetince;
+
+public class Animal {
+	String name;
+public Animal(String name){
+	this.name=("minnos");
+	System.out.println("Animal is created"+name);
+}
+}
