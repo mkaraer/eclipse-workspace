@@ -6,7 +6,7 @@ public class DowhileLoop {
 		int num=1;
 		
 		do {
-			System.out.println("Welcome to Cybertek");
+			System.out.println("Welcome to SprintQA");
 			num++;
 		}while(num<5);
 		
